@@ -1,6 +1,6 @@
 # Code samples for Kotlin in Action, Second Edition
 
-This project contains the code samples from the "Kotlin in Action" book (https://www.manning.com/books/kotlin-in-action).
+This project contains the code samples from book "[Kotlin in Action, Second Edition](http://kotl.in/in-action)" by [Roman Elizarov](https://twitter.com/relizarov), [Svetlana Isakova](https://twitter.com/sveta_isakova), [Sebastian Aigner](https://twitter.com/sebi_io) and [Dmitry Jemerov](https://twitter.com/intelliyole).
 To build the project, import it as Gradle project in IntelliJ IDEA.
 
 Each of the samples is a self-contained file, and most of them contain a "main"
