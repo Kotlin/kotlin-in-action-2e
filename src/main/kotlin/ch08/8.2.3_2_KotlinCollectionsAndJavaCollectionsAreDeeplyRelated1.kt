@@ -1,6 +1,6 @@
 package ch08.ex2_3_2_KotlinCollectionsAndJavaCollectionsAreDeeplyRelated1
 
-import ch06.CollectionUtils
+import ch08.CollectionUtils
 
 // Kotlin
 // collections.kt
