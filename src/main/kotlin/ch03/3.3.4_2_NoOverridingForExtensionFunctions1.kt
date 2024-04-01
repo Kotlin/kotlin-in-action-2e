@@ -11,7 +11,7 @@ class Button: View() {
 fun View.showOff() = println("I'm a view!")
 fun Button.showOff() = println("I'm a button!")
 
-fun main(args: Array<String>) {
+fun main() {
     val view: View = Button()
     view.showOff()
 }

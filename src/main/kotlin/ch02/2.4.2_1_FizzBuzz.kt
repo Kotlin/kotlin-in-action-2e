@@ -7,7 +7,7 @@ fun fizzBuzz(i: Int) = when {
     else -> "$i "
 }
 
-fun main(args: Array<String>) {
+fun main() {
     for (i in 1..100) {
         print(fizzBuzz(i))
     }

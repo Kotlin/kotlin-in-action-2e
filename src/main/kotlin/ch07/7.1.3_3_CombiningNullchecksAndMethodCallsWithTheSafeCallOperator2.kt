@@ -12,7 +12,7 @@ fun Person.countryName(): String {
    return if (country != null) country else "Unknown"
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val person = Person("Dmitry", null)
     println(person.countryName())
 }

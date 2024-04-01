@@ -1,6 +1,6 @@
 package ch03.ex5_3_2_MultilineTriplequotedStrings1
 
-fun main(args: Array<String>) {
+fun main() {
     val expectedPage = """
         <html lang="en">
             <head>

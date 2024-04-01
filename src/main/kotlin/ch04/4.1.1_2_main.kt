@@ -21,7 +21,7 @@ interface Focusable {
     fun showOff() = println("I'm focusable!")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val button = Button()
     button.showOff()
     button.setFocus(true)

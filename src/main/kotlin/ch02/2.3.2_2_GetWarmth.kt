@@ -28,6 +28,6 @@ fun getWarmthFromSensor(): String {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(getWarmthFromSensor())
 }

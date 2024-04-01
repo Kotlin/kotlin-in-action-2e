@@ -20,6 +20,6 @@ fun mixOptimized(c1: Color, c2: Color) =
         else -> throw Exception("Dirty color")
     }
 
-fun main(args: Array<String>) {
+fun main() {
     println(mixOptimized(BLUE, YELLOW))
 }

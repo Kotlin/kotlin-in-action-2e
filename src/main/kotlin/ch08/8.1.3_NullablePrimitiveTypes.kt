@@ -10,7 +10,7 @@ data class Person(val name: String,
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(Person("Sam", 35).isOlderThan(Person("Amy", 42)))
     println(Person("Sam", 35).isOlderThan(Person("Jane")))
 }

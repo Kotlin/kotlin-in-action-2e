@@ -18,7 +18,7 @@ fun <T> joinToString(
     return result.toString()
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val list = listOf(1, 2, 3)
     println(joinToString(list, "; ", "(", ")"))
 }

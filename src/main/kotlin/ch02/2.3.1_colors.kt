@@ -16,6 +16,6 @@ enum class Color(
     fun rgb() = (r * 256 + g) * 256 + b
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(Color.BLUE.rgb())
 }

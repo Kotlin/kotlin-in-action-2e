@@ -8,6 +8,6 @@ class A {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     A.bar()
 }

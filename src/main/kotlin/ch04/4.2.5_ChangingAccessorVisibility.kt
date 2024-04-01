@@ -9,7 +9,7 @@ class LengthCounter {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val lengthCounter = LengthCounter()
     lengthCounter.addWord("Hi!")
     println(lengthCounter.counter)

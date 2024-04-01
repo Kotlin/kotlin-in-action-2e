@@ -5,7 +5,7 @@ fun printAllCaps(str: String?) {
     println(allCaps)
 }
 
-fun main(args: Array<String>) {
+fun main() {
     printAllCaps("abc")
     printAllCaps(null)
 }

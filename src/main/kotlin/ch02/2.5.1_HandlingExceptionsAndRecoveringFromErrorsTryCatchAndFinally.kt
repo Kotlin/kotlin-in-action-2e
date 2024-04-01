@@ -14,7 +14,7 @@ fun readNumber(reader: BufferedReader): Int? {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val reader = BufferedReader(StringReader("239"))
     println(readNumber(reader))
 }

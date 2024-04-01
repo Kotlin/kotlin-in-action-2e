@@ -8,6 +8,6 @@ fun alphabet() = with(StringBuilder()) {
     toString()
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(alphabet())
 }

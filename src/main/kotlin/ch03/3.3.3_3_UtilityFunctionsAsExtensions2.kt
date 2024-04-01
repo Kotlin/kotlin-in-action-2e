@@ -22,6 +22,6 @@ fun Collection<String>.join(
         postfix: String = ""
 ) = joinToString(separator, prefix, postfix)
 
-fun main(args: Array<String>) {
+fun main() {
     println(listOf("one", "two", "eight").join(" "))
 }

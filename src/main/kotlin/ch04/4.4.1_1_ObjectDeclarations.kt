@@ -1,6 +1,5 @@
 package ch04.ex4_1_1_ObjectDeclarations
 
-import java.util.Comparator
 import java.io.File
 
 object CaseInsensitiveFileComparator : Comparator<File> {
@@ -10,7 +9,7 @@ object CaseInsensitiveFileComparator : Comparator<File> {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(CaseInsensitiveFileComparator.compare(
         File("/User"), File("/user")))
     val files = listOf(File("/Z"), File("/a"))

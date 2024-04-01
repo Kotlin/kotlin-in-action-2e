@@ -7,6 +7,6 @@ fun alphabet() = buildString {
     append("\nNow I know the alphabet!")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(alphabet())
 }

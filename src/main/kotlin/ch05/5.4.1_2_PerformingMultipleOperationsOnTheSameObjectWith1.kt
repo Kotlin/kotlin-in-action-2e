@@ -11,6 +11,6 @@ fun alphabet(): String {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(alphabet())
 }

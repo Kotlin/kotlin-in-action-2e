@@ -13,7 +13,7 @@ fun readNumber(reader: BufferedReader) {
     println(number)
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val reader = BufferedReader(StringReader("not a number"))
     readNumber(reader)
 }

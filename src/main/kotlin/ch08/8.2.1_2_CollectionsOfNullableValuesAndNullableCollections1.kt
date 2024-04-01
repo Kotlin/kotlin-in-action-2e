@@ -15,7 +15,7 @@ fun addValidNumbers(numbers: List<Int?>) {
     println("Invalid numbers: ${numbers.size - validNumbers.size}")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val input = """
         1
         abc

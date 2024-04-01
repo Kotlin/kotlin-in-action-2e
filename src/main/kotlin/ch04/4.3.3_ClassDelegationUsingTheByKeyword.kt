@@ -1,7 +1,5 @@
 package ch04.ex3_3_ClassDelegationUsingTheByKeyword
 
-import java.util.HashSet
-
 class CountingSet<T>(
         private val innerSet: MutableCollection<T> = HashSet<T>()
 ) : MutableCollection<T> by innerSet {
@@ -19,7 +17,7 @@ class CountingSet<T>(
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val cset = CountingSet<Int>()
     cset.addAll(listOf(1, 1, 2))
     println("Added ${cset.objectsAdded} objects, ${cset.size} uniques.")

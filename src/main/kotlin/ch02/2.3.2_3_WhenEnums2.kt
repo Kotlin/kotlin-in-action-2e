@@ -1,6 +1,5 @@
 package ch02.ex3_2_3_WhenEnums2
 
-import ch02.colors.Color
 import ch02.colors.Color.*
 
 fun measureColor() = ORANGE
@@ -17,6 +16,6 @@ fun getWarmthFromSensor(): String {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(getWarmthFromSensor())
 }

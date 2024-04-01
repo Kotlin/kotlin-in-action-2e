@@ -5,6 +5,6 @@ fun showProgress(progress: Int) {
     println("We're ${percent}% done!")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     showProgress(146)
 }

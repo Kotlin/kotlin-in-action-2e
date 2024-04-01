@@ -16,7 +16,7 @@ class SocialUser(val accountId: Int) : User {
     override val nickname = getNameFromSocialNetwork(accountId)
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(PrivateUser("test@kotlinlang.org").nickname)
     println(SubscribingUser("test@kotlinlang.org").nickname)
 }

@@ -7,7 +7,7 @@ fun <T> copyElements(source: Collection<T>,
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val source: Collection<Int> = arrayListOf(3, 5, 7)
     val target: MutableCollection<Int> = arrayListOf(1)
     copyElements(source, target)

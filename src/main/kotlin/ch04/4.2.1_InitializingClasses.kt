@@ -3,7 +3,7 @@ package ch04.ex2_1_InitializingClasses
 class User(val nickname: String,
            val isSubscribed: Boolean = true)
 
-fun main(args: Array<String>) {
+fun main() {
     val alice = User("Alice")
     println(alice.isSubscribed)
     val bob = User("Bob", false)

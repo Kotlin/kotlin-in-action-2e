@@ -9,6 +9,6 @@ fun alphabet(): String {
     return result.toString()
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(alphabet())
 }

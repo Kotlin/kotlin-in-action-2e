@@ -4,7 +4,7 @@ fun sendEmailTo(email: String) {
     println("Sending email to $email")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     var email: String? = "yole@example.com"
     email?.let { sendEmailTo(it) }
     email = null

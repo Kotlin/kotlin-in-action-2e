@@ -1,6 +1,6 @@
 package ch05.ex4_3_PerformingAdditionalActionsWithAnObjectAlso
 
-fun main(args: Array<String>) {
+fun main() {
     val fruits = listOf("Apple", "Banana", "Cherry")
     val uppercaseFruits = mutableListOf<String>()
     val reversedLongFruits = fruits

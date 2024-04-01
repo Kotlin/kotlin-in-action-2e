@@ -12,7 +12,7 @@ class Person(val firstName: String, val lastName: String) {
         firstName.hashCode() * 37 + lastName.hashCode()
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val p1 = Person("Dmitry", "Jemerov")
     val p2 = Person("Dmitry", "Jemerov")
     println(p1 == p2)

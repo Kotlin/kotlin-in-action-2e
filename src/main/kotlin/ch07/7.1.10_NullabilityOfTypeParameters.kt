@@ -4,6 +4,6 @@ fun <T> printHashCode(t: T) {
     println(t?.hashCode())
 }
 
-fun main(args: Array<String>) {
+fun main() {
     printHashCode(null)
 }

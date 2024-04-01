@@ -9,7 +9,7 @@ fun printInUppercase(list: List<String>) {
     println(list.first())
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val list = listOf("a", "b", "c")
     printInUppercase(list)
 }

@@ -8,7 +8,7 @@ var StringBuilder.lastChar: Char
         this.setCharAt(length - 1, value)
     }
 
-fun main(args: Array<String>) {
+fun main() {
     val sb = StringBuilder("Kotlin?")
     println(sb.lastChar)
     sb.lastChar = '!'

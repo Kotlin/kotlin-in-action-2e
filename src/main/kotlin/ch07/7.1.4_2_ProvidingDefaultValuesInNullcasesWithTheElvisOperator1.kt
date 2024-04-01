@@ -16,7 +16,7 @@ fun printShippingLabel(person: Person) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val address = Address("Elsestr. 47", 80687, "Munich", "Germany")
     val jetbrains = Company("JetBrains", address)
     val person = Person("Dmitry", jetbrains)

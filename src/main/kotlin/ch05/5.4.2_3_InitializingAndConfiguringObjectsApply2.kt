@@ -1,6 +1,6 @@
 package ch05.ex4_2_3_InitializingAndConfiguringObjectsApply2
 
-fun main(args: Array<String>) {
+fun main() {
     val fibonacci = buildList {
         addAll(listOf(1, 1, 2))
         add(3)

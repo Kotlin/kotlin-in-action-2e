@@ -8,7 +8,7 @@ class Button: View() {
     override fun click() = println("Button clicked")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val view: View = Button()
     view.click()
 }

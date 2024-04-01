@@ -7,6 +7,6 @@ val kotlinLogo =
     |/ \
     """.trimIndent()
 
-fun main(args: Array<String>) {
+fun main() {
     println(kotlinLogo)
 }

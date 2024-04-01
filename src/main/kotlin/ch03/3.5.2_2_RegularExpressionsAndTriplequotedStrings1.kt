@@ -9,6 +9,6 @@ fun parsePathRegex(path: String) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     parsePathRegex("/Users/yole/kotlin-book/chapter.adoc")
 }

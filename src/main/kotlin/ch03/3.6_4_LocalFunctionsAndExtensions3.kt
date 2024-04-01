@@ -20,6 +20,6 @@ fun saveUser(user: User) {
     // Save user to the database
 }
 
-fun main(args: Array<String>) {
+fun main() {
     saveUser(User(1, "", ""))
 }

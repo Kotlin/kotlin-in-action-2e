@@ -12,7 +12,7 @@ class User private constructor(val nickname: String) {
     }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val subscribingUser = User.newSubscribingUser("bob@gmail.com")
     val socialUser = User.newSocialUser(4)
     println(subscribingUser.nickname)

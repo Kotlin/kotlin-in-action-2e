@@ -13,7 +13,7 @@ class User(val name: String) {
         }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val user = User("Alice")
     user.address = "Christoph-Rapparini-Bogen 23, 80639 Muenchen"
 }

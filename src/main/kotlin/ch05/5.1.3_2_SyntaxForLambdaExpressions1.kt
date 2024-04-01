@@ -1,5 +1,5 @@
 package ch05.ex1_3_2_SyntaxForLambdaExpressions1
 
-fun main(args: Array<String>) {
+fun main() {
     { println(42) }()
 }

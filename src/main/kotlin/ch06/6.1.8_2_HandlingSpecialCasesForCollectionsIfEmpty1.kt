@@ -1,6 +1,6 @@
 package ch06.ex1_8_2_HandlingSpecialCasesForCollectionsIfEmpty1
 
-fun main(args: Array<String>) {
+fun main() {
     val blankName = " "
     val name = "J. Doe"
     println(blankName.ifEmpty { "(unnamed)" })

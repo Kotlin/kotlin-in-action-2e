@@ -11,6 +11,6 @@ fun eval(e: Expr): Int =
         else -> throw IllegalArgumentException("Unknown expr")
     }
 
-fun main(args: Array<String>) {
+fun main() {
     println(eval(Sum(Num(1), Num(2))))
 }

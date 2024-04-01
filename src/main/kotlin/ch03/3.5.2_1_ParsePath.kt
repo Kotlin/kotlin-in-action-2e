@@ -10,6 +10,6 @@ fun parsePath(path: String) {
     println("Dir: $directory, name: $fileName, ext: $extension")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     parsePath("/Users/yole/kotlin-book/chapter.adoc")
 }

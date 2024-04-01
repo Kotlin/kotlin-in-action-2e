@@ -6,6 +6,6 @@ fun recognize(c: Char) = when (c) {
     else -> "I don't know..."
 }
 
-fun main(args: Array<String>) {
+fun main() {
     println(recognize('8'))
 }

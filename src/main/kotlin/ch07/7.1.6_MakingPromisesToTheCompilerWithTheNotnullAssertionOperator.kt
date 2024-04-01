@@ -5,6 +5,6 @@ fun ignoreNulls(str: String?) {
     println(strNotNull.length)
 }
 
-fun main(args: Array<String>) {
+fun main() {
     ignoreNulls(null)
 }

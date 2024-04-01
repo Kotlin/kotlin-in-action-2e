@@ -23,7 +23,7 @@ fun addValidNumbers(numbers: List<Int?>) {
     println("Invalid numbers: $invalidNumbers")
 }
 
-fun main(args: Array<String>) {
+fun main() {
     val input = """
         1
         abc

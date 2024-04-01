@@ -1,5 +1,5 @@
 package ch08.ex1_4_5_KotlinMakesNumberConversionsExplicit4
 
-fun main(args: Array<String>) {
+fun main() {
     println("seven".toIntOrNull())
 }

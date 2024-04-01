@@ -4,6 +4,6 @@ fun createAllDoneRunnable(): Runnable {
     return Runnable { println("All done!") }
 }
 
-fun main(args: Array<String>) {
+fun main() {
     createAllDoneRunnable().run()
 }
