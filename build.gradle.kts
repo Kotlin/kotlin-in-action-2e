@@ -1,7 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.7.0"
+    kotlin("jvm") version "2.0.0-Beta4"
     application
 }
 
@@ -16,6 +16,7 @@ dependencies {
     implementation(kotlin("test"))
     implementation("org.junit.jupiter:junit-jupiter:5.8.2")
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.7.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.8.1-Beta")
 }
 
 tasks.test {
